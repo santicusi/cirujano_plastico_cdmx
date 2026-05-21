@@ -8,7 +8,7 @@
   'use strict';
 
   // ---- WhatsApp number config (cambiar aquí cuando el doctor lo proporcione) ----
-  const WA_NUMBER = '525555555555'; // PLACEHOLDER · Reemplazar por número real
+  const WA_NUMBER = '525610071046'; // PLACEHOLDER · Reemplazar por número real
   const WA_MESSAGES = {
     default:   'Hola Dr. Francisco, me gustaría agendar una consulta',
     consulta:  'Hola Dr. Francisco, me gustaría agendar una consulta de valoración',
