@@ -1,0 +1,218 @@
+/* =====================================================================
+   SERVICE PAGE STYLES · Dr. Francisco López Torres
+   ===================================================================== */
+
+.service-hero {
+  position: relative;
+  min-height: 60vh;
+  display: flex;
+  align-items: flex-end;
+  padding: 8rem 0 3rem;
+  overflow: hidden;
+}
+.service-hero-bg { position: absolute; inset: 0; z-index: 0; }
+.service-hero-bg img { width: 100%; height: 100%; object-fit: cover; }
+.service-hero-bg::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(12,53,59,0.5) 0%, rgba(12,53,59,0.85) 100%);
+}
+.service-hero-content {
+  position: relative;
+  z-index: 2;
+  color: #fff;
+  max-width: 800px;
+}
+.service-hero-content h1 { color: #fff; margin-bottom: 1.5rem; }
+.service-hero-content p {
+  font-size: 1.125rem;
+  color: rgba(245, 239, 234, 0.9);
+  max-width: 620px;
+}
+.service-hero .breadcrumbs { color: rgba(245, 239, 234, 0.75); margin-bottom: 1.5rem; }
+.service-hero .breadcrumbs a { color: rgba(245, 239, 234, 0.75); }
+
+.service-content {
+  display: grid;
+  grid-template-columns: 1fr 320px;
+  gap: 4rem;
+  align-items: flex-start;
+}
+.service-main h2 { margin: 2.5rem 0 1.25rem; }
+.service-main h2:first-child { margin-top: 0; }
+.service-main h3 { margin: 2rem 0 1rem; font-size: 1.5rem; }
+.service-main p { margin-bottom: 1.25rem; }
+.service-main ul {
+  margin: 1.25rem 0;
+  padding-left: 0;
+}
+.service-main ul li {
+  position: relative;
+  padding: 0.5rem 0 0.5rem 2rem;
+  color: var(--text-primary);
+}
+.service-main ul li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 1rem;
+  width: 18px;
+  height: 1.5px;
+  background: var(--gradient-copper);
+}
+
+.service-sidebar {
+  position: sticky;
+  top: 110px;
+  background: var(--gradient-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-md);
+  padding: 2rem;
+}
+.service-sidebar h4 {
+  font-family: var(--font-display);
+  font-size: 1.5rem;
+  margin-bottom: 1.25rem;
+}
+.service-sidebar .info-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.85rem 0;
+  border-bottom: 1px solid var(--border-subtle);
+  font-size: 0.9375rem;
+}
+.service-sidebar .info-row:last-of-type { border-bottom: none; }
+.service-sidebar .info-row span:first-child {
+  color: var(--text-secondary);
+  font-size: 0.8125rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+.service-sidebar .info-row span:last-child {
+  color: var(--text-primary);
+  font-weight: 500;
+  text-align: right;
+}
+.service-sidebar .btn {
+  width: 100%;
+  margin-top: 1.5rem;
+}
+
+.benefits-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  margin: 2rem 0;
+}
+.benefit-item {
+  padding: 1.5rem;
+  background: var(--bg-elevated);
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border-subtle);
+  transition: all .3s var(--ease-out);
+}
+.benefit-item:hover {
+  border-color: var(--copper-primary);
+  transform: translateY(-3px);
+}
+.benefit-item .check {
+  color: var(--copper-primary);
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+.benefit-item h5 {
+  font-family: var(--font-display);
+  font-size: 1.125rem;
+  margin-bottom: 0.5rem;
+}
+.benefit-item p { font-size: 0.875rem; color: var(--text-secondary); margin: 0; }
+
+.types-list {
+  display: grid;
+  gap: 1.25rem;
+  margin: 2rem 0;
+}
+.type-item {
+  padding: 1.75rem;
+  border-left: 3px solid var(--copper-primary);
+  background: var(--bg-elevated);
+  border-radius: 0 var(--radius-md) var(--radius-md) 0;
+}
+.type-item h4 {
+  font-family: var(--font-display);
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+  color: var(--copper-primary);
+}
+.type-item p { font-size: 0.9375rem; margin: 0; color: var(--text-secondary); }
+
+.recovery-timeline {
+  position: relative;
+  padding-left: 2rem;
+  margin: 2rem 0;
+}
+.recovery-timeline::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.5rem;
+  bottom: 0.5rem;
+  width: 2px;
+  background: var(--gradient-copper);
+}
+.recovery-step {
+  position: relative;
+  padding: 1rem 0 1rem 2rem;
+}
+.recovery-step::before {
+  content: "";
+  position: absolute;
+  left: -0.45rem;
+  top: 1.25rem;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: var(--copper-primary);
+  border: 3px solid var(--bg-primary);
+}
+.recovery-step .time-tag {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--copper-primary);
+  margin-bottom: 0.5rem;
+}
+.recovery-step h4 {
+  font-family: var(--font-display);
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+.recovery-step p { font-size: 0.9375rem; color: var(--text-secondary); margin: 0; }
+
+.investment-block {
+  padding: 2rem;
+  background: var(--gradient-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-md);
+  margin: 2rem 0;
+}
+.investment-block p { font-size: 0.9375rem; color: var(--text-secondary); margin: 0; }
+.investment-block .note {
+  display: block;
+  margin-top: 1rem;
+  font-size: 0.8125rem;
+  color: var(--text-muted);
+  font-style: italic;
+}
+
+@media (max-width: 1024px) {
+  .service-content { grid-template-columns: 1fr; }
+  .service-sidebar { position: static; }
+}
+@media (max-width: 768px) {
+  .service-hero { min-height: 50vh; padding: 6rem 0 2.5rem; }
+  .benefits-grid { grid-template-columns: 1fr; }
+}
