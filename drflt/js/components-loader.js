@@ -12,14 +12,14 @@
   const WA_MESSAGES = {
     default:   'Hola Dr. Francisco, me gustaría agendar una consulta',
     consulta:  'Hola Dr. Francisco, me gustaría agendar una consulta de valoración',
-    cirugia:   'Hola Dr. Francisco, me interesa información sobre cirugía estética',
+    cirugia:   'Hola Dr. Francisco, me interesaría agendar cita para un procedimiento',
     clinica:   'Hola Dr. Francisco, me interesa información sobre cirugía plástica reconstructiva',
-    blefaro:   'Hola Dr. Francisco, me interesa información sobre blefaroplastia',
-    facelift:  'Hola Dr. Francisco, me interesa información sobre estiramiento facial (facelift)',
+    blefaro:   'Hola Dr. Francisco, me interesa información sobre Blefaroplastía',
+    facelift:  'Hola Dr. Francisco, me interesa información sobre Rejuvenecimientofacial (facelift)',
     lipo:      'Hola Dr. Francisco, me interesa información sobre liposucción',
-    rino:      'Hola Dr. Francisco, me interesa información sobre rinoplastia',
+    rino:      'Hola Dr. Francisco, me interesa información sobre Rinoplastía Ultrasónica',
     abdomen:   'Hola Dr. Francisco, me interesa información sobre abdominoplastia',
-    mamas:     'Hola Dr. Francisco, me interesa información sobre aumento de mamas',
+    mamas:     'Hola Dr. Francisco, me interesa información sobre Aumento Mamario',
     mastopexia:'Hola Dr. Francisco, me interesa información sobre mastopexia',
     float:     'Hola Dr. Francisco, me gustaría hacer una consulta'
   };
