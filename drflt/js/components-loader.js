@@ -15,10 +15,10 @@
     cirugia:   'Hola Dr. Francisco, me interesaría agendar cita para un procedimiento',
     clinica:   'Hola Dr. Francisco, me interesa información sobre cirugía plástica reconstructiva',
     blefaro:   'Hola Dr. Francisco, me interesa información sobre Blefaroplastía',
-    facelift:  'Hola Dr. Francisco, me interesa información sobre Rejuvenecimientofacial (facelift)',
+    facelift:  'Hola Dr. Francisco, me interesa información sobre Rejuvenecimiento Facial (facelift)',
     lipo:      'Hola Dr. Francisco, me interesa información sobre liposucción',
     rino:      'Hola Dr. Francisco, me interesa información sobre Rinoplastía Ultrasónica',
-    abdomen:   'Hola Dr. Francisco, me interesa información sobre abdominoplastia',
+    abdomen:   'Hola Dr. Francisco, me interesa información sobre Abdominoplastía',
     mamas:     'Hola Dr. Francisco, me interesa información sobre Aumento Mamario',
     mastopexia:'Hola Dr. Francisco, me interesa información sobre mastopexia',
     float:     'Hola Dr. Francisco, me gustaría hacer una consulta'
